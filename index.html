@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <style>
+        h1{
+            color: rebeccapurple;
+            font-size: 15px;
+        }
+        /* รูปแบบ ภายใน class */
+        h1.title{
+            color: red;
+            font-size: 30px;
+        }
+        /* รูปแบบ class */
+        .head1{
+            color: blue;
+        }
+        /* รูปแบบ id */
+        #head2{
+            color: brown;
+        }
+        /* รูปแบบ multi */
+        h1,.title,.head1,#head2,p{
+            background-color: aquamarine;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title" align="center">Basic CSS</h1>
+    <h1> Tester header</h1>
+    <h1 class="head1"> Header 1</h1>
+    <h1 id="head2"> Header2 </h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
